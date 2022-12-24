@@ -8,7 +8,7 @@ import Page3 from './Page3'
 
 function App() {
   
-
+  const [preview,setPreview] = useState(false)
   return (
     <div className="App">
       <BrowserRouter>
@@ -18,7 +18,7 @@ function App() {
         <Route path='/page3' element={<Page3/>}/>
 
       </Routes>
-      <Page1/>
+      
       </BrowserRouter>
     </div>
   )

@@ -18,6 +18,7 @@ function App() {
         <Route path='/page3' element={<Page3/>}/>
 
       </Routes>
+      <Page1/>
       </BrowserRouter>
     </div>
   )

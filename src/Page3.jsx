@@ -127,7 +127,7 @@ function Page3(){
       {preview && <img  className='preview' src={preview} alt=""/>}
       <br/><br/>
       {preview && <button className='upload' onClick={upload}>Upload </button>}
-      <br/> <Link to='/page1'>{}Page 1</Link><Link to='/page2'>{', '}Page 2</Link>
+      <br/> <Link to='/page1'>{}Page 1</Link><Link to='/'>{', '}Page 2</Link>
       <ToastContainer
 position="top-left"
 autoClose={5000}

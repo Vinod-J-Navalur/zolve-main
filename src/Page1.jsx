@@ -86,7 +86,7 @@ return (
 	<YAxis />
 </BarChart>
 <footer className='footer'>This website is a part of Zolve Internship Challenge <a target="_blank" href='https://api.stackexchange.com/2.3/tags?order=desc&sort=popular&site=stackoverflow'>API</a>
-<br/> <Link to='/page2'>{}Page 2</Link><Link to='/page3'>{', '}Page 3</Link></footer>
+<br/> <Link to='/'>{}Page 2</Link><Link to='/page3'>{', '}Page 3</Link></footer>
 </div>
 
 );
